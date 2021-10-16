@@ -32,12 +32,12 @@ $bg   = DB::table('heading')->where('halaman','Kontak')->orderBy('id_heading','D
                 <br>Website: <?php echo $site_config->website ?></p>
             </div>
          </div>
-         <!--Contact Info End--> 
+         <!--Contact Info End-->
          
       </div>
       <br><br>
    </div>
-   <div class="container">
+   <!--<div class="container">
       <div class="row">
          <div class="col-md-6">
             <div class="contact-form">
@@ -62,12 +62,14 @@ $bg   = DB::table('heading')->where('halaman','Kontak')->orderBy('id_heading','D
                   </li>
                </ul>
             </div>
-         </div>
-         <div class="col-md-6">
+         </div>-->
+	 <div class="container">
+         <div class="col-md-14">
             <div class="google-map">
                <?php echo $site_config->google_map ?>
             </div>
          </div>
+      </div>
       </div>
    </div>
    <br><br>

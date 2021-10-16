@@ -7,7 +7,7 @@
                      <?php if($slider->status_text=="Ya") { ?>
                      <strong>{{ strip_tags($slider->isi) }}</strong>
                      <h1>{{ $slider->judul_galeri }}</h1>
-                     <a href="{{ $slider->website }}">Baca detail</a>
+                     <a href="{{ $slider->website }}">Lihat detail</a>
                      <?php } ?>
                   </div>
                </div>
