@@ -40,7 +40,7 @@
          <!--Service Area End--> 
          <section class="wf100 about">
             <!--About Txt Video Start-->
-            <div class="about-video-section wf100">
+            <!--<div class="about-video-section wf100">
                <div class="container">
                   <div class="row">
                      <div class="col-lg-7">
@@ -57,7 +57,7 @@
                      </div>
                   </div>
                </div>
-            </div>
+            </div> -->
             <!--About Txt Video End--> 
             <!--About Section Start-->
          <!--<section class="home2-about wf100 p100 gallery" style="background: url({{ asset('assets/aws/images/news-artilcesbg.jpg') }}) no-repeat; background-size: cover;">
@@ -84,7 +84,7 @@
 <section class="h2-news wf100 p80 blog">
    <div class="blog-grid">
       <div class="container">
-         <div class="row">
+         <!-- <div class="row">
             <div class="col-md-6">
                <div class="section-title-2">
                   <h5>Baca update kami</h5>
@@ -95,7 +95,7 @@
             <div class="col-md-12">
                <hr>
             </div>
-         </div>
+         </div> -->
          <div class="row" style="background-color: white; padding-top: 20px; padding-bottom: 20px; border-radius: 5px;">
             <?php foreach($berita as $berita) { ?>
             <!--Blog Small Post Start-->
@@ -127,9 +127,9 @@
    <div class="container">
       <div class="row">
          <div class="col-md-12">
-            <div class="section-title-2 text-center">
+            <!--<div class="section-title-2 text-center">
                <h2>Download</h2>
-            </div>
+            </div>-->
             <div id="testimonials" class="owl-carousel owl-theme">
                <?php 
                $kategori_download = DB::table('kategori_download')
